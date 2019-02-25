@@ -1,0 +1,183 @@
+/**
+ * ROFI Color theme
+ * User: Qball
+ * Copyright: Dave Davenport 
+*/
+
+configuration {
+
+    // The display name of this browser
+    display-ssh:                   "  ";
+    // The display name of this browser
+    display-run:                    "";
+    // The display name of this browser
+    display-drun:                   "";
+    // The display name of this browser
+    display-window:                 "";
+    display-combi:                  "";
+    show-icons: true;
+
+    location:1;
+    yoffset:390;
+    xoffset:260;
+}
+
+
+/**
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+*{
+    foreground:  #4e4e4eff;
+    backlight:   #ccffeeff;
+    background-color:  transparent;
+    dark: #1c1c1c;
+    // Black
+    black:       #3d352a;
+    lightblack:  #554444;
+    tlightblack:  #554444cc;
+    //
+    // Red
+    red:         #cd5c5c;
+    lightred:    #cc5533;
+    //
+    // Green
+    green:       #86af80;
+    lightgreen:  #88cc22;
+    //
+    // Yellow
+    yellow:      #e8ae5b;
+    lightyellow:     #ffa75d;
+    //
+    // Blue
+    blue:      #3da89e;
+    lightblue:     #87ceeb;
+    //
+    // Magenta
+    magenta:      #deb887;
+    lightmagenta:     #996600;
+    //
+    // Cyan
+    cyan:      #b0c4de;
+    tcyan:      #ccb0c4de;
+    lightcyan:     #b0c4de;
+    //
+    // White
+    white:      #bbaa99;
+    lightwhite:     #ddccbb;
+    //
+    // Bold, Italic, Underline
+    highlight:     underline bold #4e4b42ff;
+
+    transparent: rgba(0,0,0,0);
+    //font: "Source Code Pro 10";
+    font: "URW Gothic L Book 13";
+}
+#window {
+    width:300px;
+    height:300px;
+    padding: 0px;
+    border:  0px;
+    color: #FF00FFFF;
+    background-color: @transparent;
+    spacing: 0;
+    children:  [vertb, mainbox];
+    orientation: horizontal;
+
+    
+}
+
+#mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+#message {
+    padding: 5;
+    background-color: @tcyan;
+}
+#message {
+    font: "Source Code Pro 8";
+    color: @black;
+}
+
+#inputbar {
+    color: #4e4e4eff;
+    padding: 8px;
+    background-color:#eeeeecff;
+    font: "Source Code Pro 18";
+}
+#entry,prompt,case-indicator {
+    text-font: inherit;
+    text-color:inherit;
+}
+#prompt {
+    margin:     0px 0.3em 0em 0em ;
+}
+#listview {
+    padding: 4px;
+    background-color: #eeeeecff;
+    dynamic: false;
+    lines: 7;
+}
+#element {
+    padding: 1px;
+    vertical-align: 0.5;
+    background-color: #eeeeecff;
+    color: @foreground;
+    font:inherit;
+}
+#element selected.normal {
+    background-color: #ccccccff;
+}
+#element normal active {
+    foreground: @lightblue;
+}
+#element normal urgent {
+    foreground: @lightred;
+}
+#element alternate normal {
+}
+#element alternate active {
+    foreground: @lightblue;
+}
+#element alternate urgent {
+    foreground: @lightred;
+}
+#element selected active {
+    background-color: @lightblue;
+    foreground: @dark;
+}
+#element selected urgent {
+    background-color: @lightred;
+    foreground: @dark;
+}
+#element normal normal {
+
+}
+
+#vertb {
+    expand: false;
+    children: [ dummy0, sidebar, dummy1  ];
+}
+#dummy0,  dummy1 {
+    expand: true;
+}
+
+#sidebar {
+    expand: false;
+    orientation: vertical;
+    spacing: 0px;
+    border: 0px 0px 0px 0px;
+}
+#button {
+    font: "FontAwesome 22";
+    padding: 2px;
+    background-color: @tlightblack;
+    color: @foreground;
+    horizontal-align: 0.5;
+}
+#button selected normal {
+    color: @dark;
+    background-color: @backlight;
+}

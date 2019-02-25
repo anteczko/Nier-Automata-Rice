@@ -1,0 +1,98 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+.tab-content[selected="true"] {
+    background-color:#4B483F !important;
+    color:#4B483F !important;
+}
+
+.tab-icon-image{
+    display:none;  
+}
+
+
+
+///////////////
+
+
+#nav-bar{
+	background:transparent;
+}
+
+#nav-bar > *{
+	background:#f7efd3;
+}
+
+#nav-bar {
+    position: relative;
+    height: 0.1px;
+
+    overflow: hidden;
+	opacity:0;
+    margin-bottom: 200 px;
+    z-index: 1;
+}
+#navigator-toolbox{
+    background-color:#4B483F !important;
+}
+#navigator-toolbox:hover #nav-bar:hover {
+    height: 40px;
+    margin-bottom: -40px;
+	overflow:extend;
+	opacity:1;
+}
+#content-deck{
+    position:relative;
+    z-index: 0;
+}
+
+#titlebar-buttonbox{
+	opacity:0;
+    height: 1px;
+    overflow: hidden;
+
+}
+
+#titlebar-buttonbox:hover{
+	opacity:1;
+    height: auto;
+}
+#navigator-toolbox:hover .tab-content{
+    background-color:#4B483F !important;
+    color:#7e7a69 !important;
+}
+#navigator-toolbox:hover .tabbrowser-tab::after{
+  display: block !important;
+}
+
+
+.tabbrowser-tab::before, 
+.tabbrowser-tab::after{
+  display: none !important;
+}
+#navigator-toolbox:hover .tab-icon-image{
+    display:block;  
+}
+
+browser {
+    margin-right: -12px !important;
+    overflow-y: scroll;
+    margin-bottom: -12px !important;
+    overflow-x: hidden;
+    
+}
+#navigator-toolbox:hover .tab-content[selected="true"] {
+    background-color:#b3ae99 !important; /* this sets the color of the tab background */
+    color:#4B483F !important;
+}
+
+
+
+
+
+/* change the tab toolbar height */
+.tabbrowser-tab {
+  height: 24px !important;
+  padding-right: 4px !important;
+}
+.tabbrowser-strip {
+  height: 24px !important;
+}
