@@ -6,7 +6,7 @@ sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util
 echo "Downloading and compiling i3-gaps-next"
 cd ~/Nier-Automata-Rice/
 git clone https://github.com/Airblader/i3 gaps
-cd i3-gaps
+cd gaps-next
 autoreconf --force --install
 rm -rf build/
 mkdir -p build && cd build/
@@ -14,6 +14,6 @@ mkdir -p build && cd build/
 make
 sudo make install
 cd ..
-sudo rm -rf i3-gaps
+sudo rm -rf gaps-next
 
-echo "I3 was sucessfully installed!"
+echo "I3 gaps-next was sucessfully installed!"
