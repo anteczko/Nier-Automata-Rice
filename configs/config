@@ -162,11 +162,11 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-exec --no-startup-id "feh --bg-scale ~/rice/resources/WallpaperSmall.png "
+exec --no-startup-id "feh --bg-scale ~/Nier-Automata-Rice/resources/WallpaperSmall.png"
 exec --no-startup-id run
 
-gaps inner 70
-gaps outer -5
+gaps inner 75
+gaps outer -10
 for_window [class=^.*] border pixel 0
 
 bindsym $mod+m exec "rofi -show run"
@@ -178,4 +178,4 @@ bindsym $mod+c resize set 640 480
 #bindsym $mod+x move position 100 px 100 px
 #bindsym $mod+x 
 for_window [title="conky*"] floating enable
-bindsym $mod+x [title="conky*"] exec --no-startup-id "~/rice/rofi_launcher3.sh"
+bindsym $mod+x [title="conky*"] exec --no-startup-id "~/Nier-Automata-Rice/scripts/rofi_launcher3.sh"

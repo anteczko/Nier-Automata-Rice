@@ -12,7 +12,7 @@ i3-msg [class="Gnome-terminal"] floating enable
 i3-msg [class="Gnome-terminal"] move position 660 px 390 px
 i3-msg [class="Gnome-terminal"] resize set 610 320
 
-conky --config ~/rice/files/conky3
+conky --config ~/Nier-Automata-Rice/configs/conky3
 """
 i3-msg [title="conky*"] floating disable
 i3-msg [title="conky*"] floating enable
