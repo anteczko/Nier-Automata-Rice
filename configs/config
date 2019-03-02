@@ -163,7 +163,7 @@ bindsym $mod+r mode "resize"
 #}
 
 exec --no-startup-id "feh --bg-scale ~/Nier-Automata-Rice/resources/WallpaperSmall.png"
-exec --no-startup-id run
+exec --no-startup-id "~/Nier-Automata-Rice/scripts/run.sh"
 
 gaps inner 75
 gaps outer -10
