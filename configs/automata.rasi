@@ -16,6 +16,10 @@ configuration {
     display-window:                 "";
     display-combi:                  "";
     show-icons: true;
+
+    location:0;
+    yoffset:0;
+    xoffset:0;
 }
 
 
@@ -70,10 +74,10 @@ configuration {
     font: "URW Gothic L Book 13";
 }
 #window {
-    location: center;
-    anchor:   center;
+    //location:1;
+    //anchor:   center;
 	
-	width:400px;
+    width:400px;
     padding: 0px;
     border:  0px;
     color: @magenta;

@@ -25,7 +25,7 @@ composite -stereo -6-2 shot.png shot.png blured.png
 #convert left right \( -clone 1 -set colorspace RGB -channel r -separate +channel \) \( -clone 0 -set colorspace RGB -channel g -separate +channel \) \( -clone 1 -set colorspace RGB -channel b -separate +channel \) -delete 0,1 -combine blured.jpg
 feh -FZ blured.png &
 #feh -F shot.jpg &
-rofi -show run
+rofi -show run -theme ~/Nier-Automata-Rice/configs/automata.rasi
 pkill -f "feh.*blured.png"
 rm ./shot.png
 rm ./blured.png
