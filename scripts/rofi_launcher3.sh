@@ -1,10 +1,10 @@
 #!/bin/bash
 #conky --config ~/rice/files/conky3 && gnome-terminal -- top && i3-msg [class="Gnome-terminal"] floating enable && i3-msg [class="Gnome-terminal"] move position 900 px 820 px && rofi -show r$
 
-import -window root -resize 8% shot.png
+import -window root -resize 4% shot.png
 gnome-terminal -- top
 convert shot.png -colorspace gray shot.png
-composite -stereo -3-1 shot.png shot.png blured.png
+composite -stereo -2-1 shot.png shot.png blured.png
 feh -FZD blured.png &
 
 #gnome-terminal -- top
@@ -24,7 +24,7 @@ i3-msg [title="conky*"] focus
 i3-msg [class="Gnome-terminal"] focus
 i3-msg [title="conky*"] focus
 #i3-msg [title="feh.*blured.png"] move position 0 0
-
+#feh -FZD blured.png
 rofi -show run -theme ~/Nier-Automata-Rice/configs/automata_white.rasi
 killall conky
 killall gnome-terminal-server
