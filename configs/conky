@@ -60,9 +60,7 @@ ${top name 1} $alignr +${top mem 1} [${top cpu 1} ]
 ${top name 2} $alignr +${top mem 2} [${top cpu 2} ]
 ${top name 3} $alignr +${top mem 3} [${top cpu 3} ]
 ${top name 4} $alignr +${top mem 4} [${top cpu 4} ]
-
 $alignc☐  ☐  ☐  ☐  ☐  ☐  ☐  ☐  ☐  ☐  ☐  ☐
-
 ]]
 --[[
 $hr

@@ -3,7 +3,7 @@
 
 #scrot shot.jpg -q 100
 
-import -window root -resize 25% shot.png
+import -window root -resize 35% shot.png
 
 #ffmpeg -i shot.jpg -vf "boxblur=5:1" blured.jpg
 #convert -blur 0x0 shot.jpg blured.jpg
