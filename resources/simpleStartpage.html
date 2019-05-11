@@ -1,0 +1,56 @@
+<head>
+  <style>
+
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 80vh;
+      max-width: 70vw;
+      width:auto;
+    }
+
+  </style>
+  <script>
+    var links=[];
+    links[0]="https://www.reddit.com/";
+    links[1]="http://reddit.com/r/unixporn";
+
+    function redirect(number){
+      window.location.href = links[number];
+    }
+  </script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="dist/yorha.css"/>
+<style>.full { width: 100% }</style>
+<title>YoRHa Personal Startpage</title>
+<h1>YoRHa Personal Startpage</h1>
+
+<div style="width:30%;float:left;padding:4% 2% 2% 2%;" >
+  <figure>
+    <figcaption>Links</figcaption>
+    <div>
+      <button class="full" type="submit" onclick="redirect(1)">r/unixporn</button>
+      <button class="full" type="submit" onclick="redirect(2)">r/nier</button>
+      <button class="full" type="submit" onclick="redirect(3)">wiki/Ark</button>
+      <button class="full" type="submit" onclick="redirect(3)">playlist</button>
+      <button class="full" type="submit" onclick="redirect(4)">y/nier:a-full-ost</button>
+      <button class="full" type="submit" onclick="redirect(5)">y/nier:a-arranged</button>
+      <button class="full" type="submit" onclick="redirect(6)">y/nier:a-concert</button>
+
+
+
+    </div>
+  </figure>
+</div>
+<div style="width:60%;float:left;padding:0 0 0 0;">
+  <figure>
+      <br><br>
+    <div id="content" onmouseover="changeDivContent(0)">
+      <img src="https://i.redd.it/zqzdznfidbv01.jpg" height=80%>
+
+    </div>
+  </figure>
+</div>
