@@ -39,7 +39,7 @@ Clone this repository into your '\~/' folder, otherwise some configs won't work!
  * conky, compton, rofi - should stay in git repo cloned into '\~/' repository
 
  #### Fonts, themes:
-  (Sometimes \~/.fonts/ or \~/.icons/ doesn't exist yet and you have to create them manually with sudo command)
+  (Sometimes \~/.fonts/ or \~/.icons/ directories doesn't exist yet, so you have to create them manually including sudo command)
   * To install fonts copy all files from '\~/Nier-Automata-Rice/fonts/' into '\~/.fonts/' and run command 'sudo fc-cache -f -v' to make new fonts visible for the system.
   * To install gtk theme, unzip oomox-Pure-Light.zip located in '\~/Nier-Automata-Rice/themes/' and copy folder to '/usr/share/themes/'
-  * To install icons copy file oomox-3024.yml into '\~/.icons/' folder
+  * To install icons copy file oomox-3024.yml into '\~/.icons/' folder from '\~/Nier-Automata-Rice/themes/'
