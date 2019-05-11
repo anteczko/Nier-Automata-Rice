@@ -4,7 +4,7 @@ It's repository for game inspired linux customization.
 I'm sharing it so everybody can take a look at, but I don't guarantee this config files will work on your machine, and it doesn't have any autoinstall/autodeploy script.
 Also I'm gona share screenshots of it on /r/unixporn, and maybe if you had any questions, they may been already answered in the comments of this post.
 
-<insert images here>
+![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot.png)
 
 ## Files:
 Here is overall explanation of directories and files in repository:
