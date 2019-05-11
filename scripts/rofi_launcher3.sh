@@ -1,7 +1,7 @@
 #!/bin/bash
 #conky --config ~/rice/files/conky3 && gnome-terminal -- top && i3-msg [class="Gnome-terminal"] floating enable && i3-msg [class="Gnome-terminal"] move position 900 px 820 px && rofi -show r$
 
-import -window root -resize 4% shot.png
+import -window root -resize 7% shot.png
 gnome-terminal -- top
 convert shot.png -colorspace gray shot.png
 composite -stereo -2-1 shot.png shot.png blured.png
