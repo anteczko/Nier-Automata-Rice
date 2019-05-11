@@ -12,9 +12,10 @@ Here is overall explanation of directories and files in repository:
  * fonts - all fonts used in configuration
  * resources - there are wallpapers in png and gimp format, so you can make your own, with fitting decorations
  * scripts - place for scripts
-  * run.sh - script launched at start to inicialize polybar, compton etc.
-  * rofi_launcher*.sh - scripts for launching rofi
- * 
+ * +--run.sh - script launched at start to inicialize polybar, compton etc.
+ * +--rofi_launcher*.sh - scripts for launching rofi
+ * themes - gtk and icon themes
+ * README.md - you are readin this file right now!
 
 ## Instalation:
 
