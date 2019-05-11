@@ -31,7 +31,7 @@ Important note!
 Clone this repository into your ~/ folder, otherwise some configs won't work!
 
 #### Configuration files
-Some could stay in ~ /Nier-Automata-Rice/ folder, but some needs beeing copied, sometimes even renamed:
+Some could stay in '''~/Nier-Automata-Rice/''' folder, but some needs beeing copied, sometimes even renamed:
 config - is i3 config file. Copy it into '~/.config/i3/' direcory
 polybar_config - is polybar config file. Copy it into '~/.config/polybar' renaming it to 'config'
 userChrome.css - is css for changing firefox look. After applying only css firefox won't look exacly like on screenshots, because kinda sits atop of gtk oomox-pure-light theme. To locate mozilla directory you have to click in mozilla Open Menu > Help > Troubleshooting Information > (Application Basics) > Profile Directory > You can click 'Open Direcorty' button. There create directory called 'chrome' and paste userChrome.css in it.
