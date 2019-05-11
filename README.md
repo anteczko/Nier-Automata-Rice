@@ -16,6 +16,13 @@ Here is overall explanation of directories and files in repository:
  * +--rofi_launcher*.sh - scripts for launching rofi
  * themes - gtk and icon themes
  * README.md - you are readin this file right now!
+ 
+ ### Keyboard shortcuts:
+ Edited i3 config provides extra rofi launching shortcuts (located in \~/Nier-Automata-Rice/scripts/ directory):
+ * mod+m - launches black-beige styled menu
+ * mod+d - launches black-beige styled menu, with light blur
+ * mod+x - launches rofi, terminal and rofi at the same time. Heavy blur also included
+ to see exacly which shortcut launches which rofi_launcher look into i3 configuration file
 
 ## 'Instalation':
 #### Programs used: 
