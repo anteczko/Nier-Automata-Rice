@@ -30,7 +30,7 @@ These programs are used by configuration and must be installed.
 Important note!
 Clone this repository into your ~/ folder, otherwise some configs won't work!
 
-####Configuration files
+#### Configuration files
 Some could stay in ~/Nier-Automata-Rice/ folder, but some needs beeing copied, sometimes even renamed:
 config - is i3 config file. Copy it into '~/.config/i3/' direcory
 polybar_config - is polybar config file. Copy it into '~/.config/polybar' renaming it to 'config'
