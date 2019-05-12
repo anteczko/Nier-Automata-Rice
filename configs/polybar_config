@@ -23,7 +23,7 @@ modules-center=i3
 underline-size=0
 underline-color=${colors.red}
 
-border-top-size = 33%
+border-top-size = 3%
 background = ${colors.clear}
 
 font-0 = "SCE\-PS3 Rodin LATIN2:style=Light:size=21;6"
