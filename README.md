@@ -49,3 +49,9 @@ Clone this repository into your '\~/' folder, otherwise some configs won't work!
   * To install fonts copy all files from '\~/Nier-Automata-Rice/fonts/' into '\~/.fonts/' and run command 'sudo fc-cache -f -v' to make new fonts visible for the system.
   * To install gtk theme, unzip oomox-Pure-Light.zip located in '\~/Nier-Automata-Rice/themes/' and copy folder to '/usr/share/themes/'
   * To install icons copy file oomox-3024.yml into '\~/.icons/' folder from '\~/Nier-Automata-Rice/themes/'
+
+## Gallery
+![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot2.png)
+![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot3.png)
+![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot4.png)
+![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot5.png)
