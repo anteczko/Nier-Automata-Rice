@@ -51,13 +51,13 @@ Clone this repository into your '\~/' folder, otherwise some configs won't work!
   * To install icons copy file oomox-3024.yml into '\~/.icons/' folder from '\~/Nier-Automata-Rice/themes/'
 
 ## Gallery
-This is how different programs presents
+#### This is how different programs presents
 ![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot2.png)
-First style of program launcher
+#### First style of program launcher
 ![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot3.png)
-Program launcher with 'stylish blur'
+#### Program launcher with 'stylish blur'
 ![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot4.png)
-Program launcher with additional programs
+#### Program launcher with additional programs
 ![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot5.jpeg)
-This is a mockup of original NieR:Automata's User Interface
+#### This is a mockup of original NieR:Automata's User Interface
 ![Picture](https://raw.githubusercontent.com/anteczko/Nier-Automata-Rice/master/resources/screenshot5.png)
